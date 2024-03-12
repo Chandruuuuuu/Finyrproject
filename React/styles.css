@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+}
+.weather-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* additional styles for content if needed */
+}
+/* .weather-container {
+  margin-top: 30px;
+} */
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  /* margin-left: 5px; */
+}
+
+#weather-info {
+  margin-top: 20px;
+}
